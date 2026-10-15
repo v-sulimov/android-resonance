@@ -1,3 +1,25 @@
 <resources>
     <string name="application_name">Resonance</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Resonance</string>
+    <string name="welcome_subtitle">A fast, free, and open-source native client for your Subsonic music server.</string>
+    <string name="welcome_value_free_title">100% Free, Forever</string>
+    <string name="welcome_value_free_desc">No subscriptions, no paywalls, no ads. Just your music.</string>
+    <string name="welcome_value_open_title">Open Source</string>
+    <string name="welcome_value_open_desc">Transparent and community-driven. Anyone can inspect, verify, and contribute to the code.</string>
+    <string name="welcome_value_privacy_title">Absolute Privacy</string>
+    <string name="welcome_value_privacy_desc">Zero telemetry. Zero tracking. Your data stays between your device and your server.</string>
+    <string name="welcome_btn_get_started">Get Started</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_protocol_dropdown">Select HTTP or HTTPS protocol</string>
+    <string name="cd_clear_text">Clear text</string>
+
+    <string name="server_config_protocol_https">https://</string>
+    <string name="server_config_protocol_http">http://</string>
+
+    <string name="library_title">Library Screen (Coming Soon)</string>
+    <string name="search_title">Search Screen (Coming Soon)</string>
 </resources>

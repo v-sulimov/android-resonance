@@ -1,0 +1,23 @@
+<resources>
+    <string name="home_greeting_morning">Good morning, %1$s</string>
+    <string name="home_greeting_afternoon">Good afternoon, %1$s</string>
+    <string name="home_greeting_evening">Good evening, %1$s</string>
+    <string name="home_greeting_night">Good night, %1$s</string>
+
+    <string name="home_btn_shuffle_all">Shuffle All</string>
+
+    <string name="home_section_recently_added">Recently Added</string>
+    <string name="home_section_recently_played">Recently Played</string>
+    <string name="home_section_most_played">Most Played</string>
+    <string name="home_section_random">Discovery</string>
+
+    <string name="home_hero_title">Dive into your library</string>
+    <string name="home_hero_subtitle">Ready to listen?</string>
+    <string name="home_unknown_album">Unknown Album</string>
+
+    <string name="error_user_not_authenticated">User not authenticated.</string>
+    <string name="error_client_init_failed">Failed to initialize client.</string>
+    <string name="error_loading_failed">Failed to load data.</string>
+
+    <string name="cd_profile_icon">Profile and Settings</string>
+</resources>

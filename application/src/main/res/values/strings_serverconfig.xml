@@ -1,0 +1,15 @@
+<resources>
+    <!-- Server Config Screen -->
+    <string name="server_config_title">Connect to your Server</string>
+    <string name="server_config_subtitle">Enter the URL of your Subsonic instance.</string>
+    <string name="server_url_label">Server Address</string>
+    <string name="server_url_hint">music.example.com</string>
+    <string name="btn_test_connection">Test Connection</string>
+    <string name="btn_continue">Continue to Sign In</string>
+
+    <!-- Status Messages -->
+    <string name="status_testing">Testing connection...</string>
+    <string name="status_success">Connection successful! Server version: %1$s</string>
+    <string name="status_error_invalid_url">Please enter a valid URL starting with http:// or https://</string>
+    <string name="status_error_connection">Could not connect to the server. Please check the URL and your network connection.</string>
+</resources>
