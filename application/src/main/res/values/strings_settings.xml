@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_screen_title">Settings</string>
+
+    <!-- Account Section -->
+    <string name="settings_section_account">Account</string>
+    <string name="settings_account_user_prefix">Logged in as %1$s</string>
+    <string name="settings_account_server_prefix">Server: %1$s</string>
+
+    <!-- Appearance Section -->
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_theme_title">App Theme</string>
+    <string name="settings_theme_system">System Default</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_dynamic_color_title">Dynamic Color</string>
+    <string name="settings_dynamic_color_desc">Apply wallpaper colors (Android 12+)</string>
+
+    <!-- Storage & Cache Section -->
+    <string name="settings_section_storage">Storage &amp; Cache</string>
+    <string name="settings_cache_title">Cover Art Cache</string>
+    <string name="settings_cache_desc">%1$s used on disk</string>
+    <string name="settings_btn_clear">Clear</string>
+    <string name="settings_cache_cleared_message">Image cache cleared</string>
+
+    <!-- About Section -->
+    <string name="settings_section_about">About</string>
+    <string name="settings_app_name">Resonance</string>
+    <string name="settings_app_version_format">Version %1$s</string>
+
+    <!-- Sign Out Section & Dialog -->
+    <string name="settings_sign_out_title">Sign Out</string>
+    <string name="settings_sign_out_desc">Log out from your Subsonic server</string>
+    <string name="settings_sign_out_dialog_title">Sign Out</string>
+    <string name="settings_sign_out_dialog_desc">Are you sure you want to sign out? You will need to enter your server credentials again.</string>
+    <string name="settings_btn_cancel">Cancel</string>
+</resources>

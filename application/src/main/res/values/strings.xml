@@ -1,3 +1,126 @@
 <resources>
     <string name="application_name">Resonance</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Resonance</string>
+    <string name="welcome_subtitle">A fast, free, and open-source native client for your Subsonic music server.</string>
+    <string name="welcome_value_free_title">100% Free, Forever</string>
+    <string name="welcome_value_free_desc">No subscriptions, no paywalls, no ads. Just your music.</string>
+    <string name="welcome_value_open_title">Open Source</string>
+    <string name="welcome_value_open_desc">Transparent and community-driven. Anyone can inspect, verify, and contribute to the code.</string>
+    <string name="welcome_value_privacy_title">Absolute Privacy</string>
+    <string name="welcome_value_privacy_desc">Zero telemetry. Zero tracking. Your data stays between your device and your server.</string>
+    <string name="welcome_btn_get_started">Get Started</string>
+
+    <!-- Notification Permission Screen -->
+    <string name="notification_permission_title">Enable Notifications</string>
+    <string name="notification_permission_subtitle">Resonance uses notifications to show player controls and track your offline downloads.</string>
+    <string name="notification_permission_player_title">Background Media Player</string>
+    <string name="notification_permission_player_desc">Control playback, view track info, and switch songs directly from your lock screen and status bar.</string>
+    <string name="notification_permission_downloads_title">Download Status Updates</string>
+    <string name="notification_permission_downloads_desc">Track progress in real-time when saving albums, playlists, and songs for offline listening.</string>
+    <string name="notification_permission_btn_continue">Continue</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_protocol_dropdown">Select HTTP or HTTPS protocol</string>
+    <string name="cd_clear_text">Clear text</string>
+    <string name="cd_download">Download item for offline playback</string>
+    <string name="cd_downloaded">Item downloaded</string>
+    <string name="cd_download_failed">Download failed</string>
+    <string name="cd_active_downloads_progress">Active downloads progress</string>
+    <string name="cd_downloads_paused">Downloads paused</string>
+
+    <string name="server_config_protocol_https">https://</string>
+    <string name="server_config_protocol_http">http://</string>
+
+    <!-- Download Foreground Service & Actions -->
+    <string name="download_notification_channel_name">Library Downloads</string>
+    <string name="download_notification_channel_description">Notification channel for tracking offline music download progress.</string>
+    <string name="download_notification_title_downloading">Downloading music…</string>
+    <string name="download_notification_title_paused">Downloads paused</string>
+    <string name="download_notification_action_pause">Pause</string>
+    <string name="download_notification_action_resume">Resume</string>
+    <string name="download_notification_action_cancel">Cancel All</string>
+    <string name="download_option_download">Download</string>
+    <string name="download_option_download_all">Download All</string>
+    <string name="download_option_remove">Remove Download</string>
+    <string name="dialog_remove_download_title">Remove Download</string>
+    <string name="dialog_remove_download_message">Are you sure you want to remove \"%1$s\" from offline storage?</string>
+    <string name="dialog_remove_download_confirm">Remove</string>
+    <string name="dialog_remove_download_cancel">Cancel</string>
+
+    <!-- Downloads Screen & Library Offline Section -->
+    <string name="downloads_screen_title">Offline &amp; Downloads</string>
+    <string name="downloads_section_storage">Storage Usage</string>
+    <string name="downloads_storage_audio">Downloaded Audio</string>
+    <string name="downloads_storage_covers">Offline Covers</string>
+    <string name="downloads_storage_total">Total Offline Used</string>
+    <string name="downloads_storage_free">Available Memory</string>
+    <string name="downloads_section_queue">Active Queue (%1$d)</string>
+    <string name="downloads_section_downloaded">Downloaded Tracks (%1$d)</string>
+    <string name="downloads_hero_title">Download Entire Library</string>
+    <string name="downloads_hero_desc">Save all albums and songs from your server for full offline access anywhere without internet.</string>
+    <string name="downloads_btn_start_library">Download Entire Library</string>
+    <string name="downloads_menu_download_library">Download Entire Library</string>
+    <string name="downloads_action_clear_failed">Clear Failed</string>
+    <string name="downloads_action_pause">Pause</string>
+    <string name="downloads_action_resume">Resume</string>
+    <string name="downloads_action_cancel_all">Cancel All</string>
+    <string name="dialog_download_library_title">Download Entire Library?</string>
+    <string name="dialog_download_library_message">Are you sure you want to download your entire Subsonic library for offline playback? This will fetch all albums and tracks, which may consume substantial storage space and mobile data.</string>
+    <string name="dialog_download_library_confirm">Start Download</string>
+    <string name="dialog_download_library_cancel">Cancel</string>
+    <string name="library_category_offline_title">Offline Mode</string>
+    <string name="library_category_offline_desc">Play downloaded music strictly without internet</string>
+    <string name="library_category_downloads_title">Downloads &amp; Storage</string>
+    <string name="library_category_downloads_desc">Manage active queue and disk space</string>
+
+    <!-- Download Storage Manager Hub -->
+    <string name="downloads_tab_songs">Songs (%1$d)</string>
+    <string name="downloads_tab_albums">Albums (%1$d)</string>
+    <string name="downloads_tab_artists">Artists (%1$d)</string>
+    <string name="downloads_tab_playlists">Playlists (%1$d)</string>
+    <string name="downloads_search_placeholder">Search downloaded content…</string>
+    <string name="downloads_empty_search">No downloaded items match your search.</string>
+    <string name="downloads_empty_downloaded">No downloaded music yet.</string>
+    <string name="downloads_album_subtitle_format">%1$d songs • %2$s</string>
+    <string name="downloads_artist_subtitle_format">%1$d albums • %2$d songs • %3$s</string>
+    <string name="downloads_playlist_subtitle_format">%1$d songs • %2$s</string>
+    <string name="dialog_delete_album_title">Delete Downloaded Album</string>
+    <string name="dialog_delete_album_message">Are you sure you want to delete downloaded album \"%1$s\"? This will free %2$s (%3$d songs) from your storage.</string>
+    <string name="dialog_delete_artist_title">Delete Downloaded Artist</string>
+    <string name="dialog_delete_artist_message">Are you sure you want to delete all downloaded music for \"%1$s\"? This will free %2$s (%3$d songs) from your storage.</string>
+    <string name="dialog_delete_playlist_title">Delete Downloaded Playlist</string>
+    <string name="dialog_delete_playlist_message">Are you sure you want to delete downloaded playlist \"%1$s\"? This will free %2$s (%3$d songs) from your storage.</string>
+    <string name="cd_delete_download">Delete download</string>
+    <string name="downloads_menu_remove_all">Remove All Downloads</string>
+    <string name="dialog_remove_all_title">Remove All Downloads?</string>
+    <string name="dialog_remove_all_message">Are you sure you want to delete all downloaded audio tracks and offline covers? This will free %1$s (%2$d songs) from your device.</string>
+    <string name="dialog_remove_all_confirm">Remove All</string>
+    <string name="sort_size_desc">Largest Size</string>
+    <string name="sort_name_asc">Name (A-Z)</string>
+    <string name="cd_expand_item">Expand item</string>
+    <string name="cd_collapse_item">Collapse item</string>
+
+    <!-- Manage Downloads & Hero Storage Card -->
+    <string name="manage_downloads_screen_title">Manage Downloads</string>
+    <string name="manage_downloads_nav_card_title">Manage Downloaded Content</string>
+    <string name="manage_downloads_nav_card_desc">View downloaded albums, artists, songs, and free up storage</string>
+    <string name="downloads_hero_storage_title">Downloaded Storage</string>
+    <string name="downloads_hero_storage_stat_format">%1$s used by Resonance • %2$s available</string>
+    <string name="downloads_hero_total_device_format">%1$s total storage capacity</string>
+    <string name="downloads_hero_content_summary_format">%1$d songs • %2$d albums • %3$d artists</string>
+
+    <!-- Empty State Placeholders -->
+    <string name="downloads_empty_category_artists_title">No Downloaded Artists</string>
+    <string name="downloads_empty_category_artists_desc">Artists with downloaded music will appear here.</string>
+    <string name="downloads_empty_category_albums_title">No Downloaded Albums</string>
+    <string name="downloads_empty_category_albums_desc">Albums downloaded for offline listening will appear here.</string>
+    <string name="downloads_empty_category_songs_title">No Downloaded Songs</string>
+    <string name="downloads_empty_category_songs_desc">Songs saved for offline playback will appear here.</string>
+    <string name="downloads_empty_category_playlists_title">No Downloaded Playlists</string>
+    <string name="downloads_empty_category_playlists_desc">Playlists downloaded for offline listening will appear here.</string>
+    <string name="downloads_empty_search_title">No Results Found</string>
+    <string name="downloads_empty_search_desc">No downloaded items match your search query.</string>
 </resources>

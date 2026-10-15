@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="library_screen_title">Library</string>
+
+    <!-- Categories -->
+    <string name="library_category_albums_title">Albums</string>
+    <string name="library_category_albums_desc">Browse your music collection by album</string>
+
+    <string name="library_category_artists_title">Artists</string>
+    <string name="library_category_artists_desc">Explore artists and their discographies</string>
+
+    <string name="library_category_playlists_title">Playlists</string>
+    <string name="library_category_playlists_desc">Your personal music playlists</string>
+
+    <string name="library_category_favorites_title">Favorites</string>
+    <string name="library_category_favorites_desc">Your favorite and starred tracks</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_library_category_icon">Category icon</string>
+    <string name="cd_navigate_to_category">Navigate to category</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_clear_search">Clear search text</string>
+    <string name="cd_sort">Sort options</string>
+    <string name="cd_grid_view">Switch to grid view</string>
+    <string name="cd_list_view">Switch to list view</string>
+    <string name="cd_scroll_to_top">Scroll to top</string>
+
+    <!-- State Layouts & Controls -->
+    <string name="btn_retry">Retry</string>
+    <string name="btn_shuffle">Shuffle All</string>
+    <string name="error_network_connection">Could not connect to the server. Please check your network connection.</string>
+    <string name="search_placeholder">Search in %1$s…</string>
+    <string name="search_prompt_title">Type to search</string>
+    <string name="search_prompt_desc">Search across your entire music collection</string>
+    <string name="search_prompt_albums_title">Search Albums</string>
+    <string name="search_prompt_albums_desc">Search albums by title or artist name</string>
+    <string name="search_prompt_artists_title">Search Artists</string>
+    <string name="search_prompt_artists_desc">Search artists by name</string>
+    <string name="search_prompt_playlists_title">Search Playlists</string>
+    <string name="search_prompt_playlists_desc">Search playlists by title or comment</string>
+    <string name="search_prompt_favorites_title">Search Favorites</string>
+    <string name="search_prompt_favorites_desc">Search across your favorite songs, albums, and artists</string>
+
+    <!-- Sort Bottom Sheet -->
+    <string name="sort_title">Sort by</string>
+    <string name="sort_ascending">Ascending</string>
+    <string name="sort_descending">Descending</string>
+    <string name="sort_name">Name (A–Z)</string>
+    <string name="sort_artist">Artist</string>
+    <string name="sort_year">Release Year</string>
+    <string name="sort_duration">Duration</string>
+    <string name="sort_song_count">Song Count</string>
+    <string name="sort_recently_added">Recently Added</string>
+
+    <!-- Empty States -->
+    <string name="empty_albums_title">No albums found</string>
+    <string name="empty_albums_desc">Your album collection appears to be empty.</string>
+    <string name="empty_artists_title">No artists found</string>
+    <string name="empty_artists_desc">No artists were found on your server.</string>
+    <string name="empty_songs_title">No songs found</string>
+    <string name="empty_songs_desc">No songs were found in your music library.</string>
+    <string name="empty_playlists_title">No playlists found</string>
+    <string name="empty_playlists_desc">You haven\'t created or saved any playlists yet.</string>
+    <string name="empty_favorites_title">No favorites yet</string>
+    <string name="empty_favorites_desc">Star your favorite songs, albums, or artists to see them here.</string>
+
+    <!-- Favorites Filter Chips -->
+    <string name="favorites_filter_all">All</string>
+    <string name="favorites_filter_songs">Songs</string>
+    <string name="favorites_filter_albums">Albums</string>
+    <string name="favorites_filter_artists">Artists</string>
+
+    <!-- Item Subtitles & Formats -->
+    <string name="song_count_format">%1$d songs</string>
+    <string name="album_count_format">%1$d albums</string>
+    <string name="item_count_format">%1$d items</string>
+    <string name="unknown_artist">Unknown Artist</string>
+    <string name="unknown_album">Unknown Album</string>
+    <string name="unknown_title">Unknown Title</string>
+</resources>

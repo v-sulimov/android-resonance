@@ -1,0 +1,19 @@
+<resources>
+    <!-- Auth Screen -->
+    <string name="auth_title">Sign In</string>
+    <string name="auth_subtitle">Enter your credentials for</string>
+    <string name="auth_username_label">Username</string>
+    <string name="auth_password_label">Password</string>
+    <string name="btn_sign_in">Sign In</string>
+
+    <!-- Status Messages -->
+    <string name="status_authenticating">Authenticating&#8230;</string>
+    <string name="status_auth_success">Signed in successfully!</string>
+    <string name="status_error_auth_failed">Authentication failed. Check your username and password.</string>
+    <string name="status_error_empty_fields">Username and password cannot be empty.</string>
+
+    <!-- Content Descriptions -->
+    <string name="cd_toggle_password_visibility">Toggle password visibility</string>
+    <string name="cd_password_visible">Password visible</string>
+    <string name="cd_password_hidden">Password hidden</string>
+</resources>

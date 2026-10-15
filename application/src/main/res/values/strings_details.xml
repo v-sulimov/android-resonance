@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Details Screens General -->
+    <string name="album_details_title">Album</string>
+    <string name="artist_details_title">Artist</string>
+    <string name="playlist_details_title">Playlist</string>
+
+    <string name="btn_play">Play</string>
+    <string name="section_tracks">Tracks</string>
+    <string name="section_albums">Albums</string>
+
+    <string name="bullet_separated_format">%1$s • %2$s</string>
+
+    <!-- Content Descriptions for Accessibility -->
+    <string name="cd_album_cover">Album artwork</string>
+    <string name="cd_artist_avatar">Artist picture</string>
+    <string name="cd_playlist_cover">Playlist artwork</string>
+    <string name="cd_play_button">Play all tracks</string>
+    <string name="cd_shuffle_button">Shuffle tracks</string>
+    <string name="cd_more_options">More options</string>
+</resources>

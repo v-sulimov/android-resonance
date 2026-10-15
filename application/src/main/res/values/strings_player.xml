@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="player_option_play_next">Play Next</string>
+    <string name="player_option_add_to_queue">Add to Queue</string>
+    <string name="player_option_go_to_album">Go to Album</string>
+    <string name="player_option_go_to_artist">Go to Artist</string>
+    <string name="player_msg_added_to_queue">Added to queue</string>
+    <string name="player_msg_playing_next">Will play next</string>
+    <string name="player_queue_title">Play Queue</string>
+    <string name="player_queue_empty">Queue is empty</string>
+    <string name="player_queue_clear">Clear Queue</string>
+    <string name="player_now_playing_title">Now Playing</string>
+    <string name="player_repeat_off">Repeat Off</string>
+    <string name="player_repeat_all">Repeat All</string>
+    <string name="player_repeat_one">Repeat One</string>
+    <string name="cd_song_options">Song options menu</string>
+    <string name="cd_play">Play</string>
+    <string name="cd_pause">Pause</string>
+    <string name="cd_skip_next">Skip to next track</string>
+    <string name="cd_skip_previous">Skip to previous track</string>
+    <string name="cd_mini_player">Open now playing screen</string>
+    <string name="cd_collapse">Collapse now playing screen</string>
+    <string name="cd_show_queue">Show play queue</string>
+    <string name="cd_shuffle">Shuffle mode</string>
+    <string name="cd_repeat">Repeat mode</string>
+    <string name="player_option_add_favorite">Add to Favorites</string>
+    <string name="player_option_remove_favorite">Remove from Favorites</string>
+    <string name="cd_add_to_favorites">Add to favorites</string>
+    <string name="cd_remove_from_favorites">Remove from favorites</string>
+</resources>
